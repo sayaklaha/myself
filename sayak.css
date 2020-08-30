@@ -1,0 +1,67 @@
+body{
+    padding: 5%;
+    margin:1%;
+}
+
+
+header {
+    padding: 10%;
+    margin :0 auto;
+    background: #000000;
+    background-image: url("patratur.jpg");
+    background-size:cover;}
+nav{text-align: center;}
+
+nav >a{     text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    padding: 1%;
+   margin: 10px;
+    background: rgba(255,255,255,0.5);
+    border-radius: 5px;
+}
+
+.right{display: block;
+    padding: 20px;
+    margin-left:40px;
+}
+
+.left{display: inline-block;
+     background:#00BFFF;
+     width: 20%;
+     float:left;
+     margin-right: 30px;
+     padding: 1% 0; 
+    }
+
+img {display: block;
+    margin: 30px auto;
+    width: 200px;
+    border: solid 2px #ffffff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;    
+}
+ 
+.active{color: #000000;
+    background: #ffffff;
+}
+
+h1 {margin-bottom: 45px;
+    text-align: center;
+    text-transform:uppercase;
+    color: #000000;
+    text-shadow: 2px 2px;
+   }
+p{
+    text-shadow: #fc0 1px 0 10px;
+    font-size:larger;
+    font-weight: bolder;
+}
+li{
+    text-shadow: #fc0 1px 0 10px;
+    font-size:larger;
+    font-weight: bolder;
+}
